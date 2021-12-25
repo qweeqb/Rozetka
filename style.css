@@ -1,0 +1,43 @@
+.figure {
+position:absolute;
+top:80px;
+left:120px;
+width:100px;
+height:100px;
+background-color:white;
+animation-name:spin;
+animation-duration:3s;
+animation-iteration-count: infinite;
+ }
+ @keyframes spin {	
+ 	0%{
+ 		transform: rotate(0deg);
+ 	}
+ 	35%{
+ 		transform: translate(350px,0px);
+ 		background-color: #33F09D;
+}
+50%
+{
+background-color: 	#F0EF33;
+transform: translate(350px,350px);
+}
+75%{
+background-color:red;
+transform: translate(0px,350px);
+}
+	100%{
+transform:rotate(360deg);
+
+}	
+
+canvas {
+	position: relative;
+	left: 690px;
+	top: 700px;
+	background: #262626;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	box-shadow: 25px 25px 25px rgba(0,0,0,.5);
+    overflow: hidden;
+}

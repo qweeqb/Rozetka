@@ -1,0 +1,119 @@
+.figure {
+position: absolute ;
+top: 80px;
+left: 120px;
+width: 100px;
+height: 100px;
+background-color: orange;
+animation-name: spin;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+background-image: url(87338badf0949cab6091c38e45688197.jpg) ;
+}
+
+@keyframes spin {
+  0%{
+	transform: rotate(0deg);
+	transform: translate(0px,0px);
+}
+35%{
+  background-color: pink;
+  transform: translate(300px,0px);
+}
+50%
+{
+	background-color:purple ;
+	transform: translate(300px,300px);
+}
+75%
+	{transform: translate(0px,300px);
+	}
+100%{
+	transform: rotate(360deg);
+transform: translate(0px,0px);
+   }
+}
+.watermelon {
+	position: relative;
+	top:80px;
+	left:430px;
+	width:400px;
+	height:180px;
+background-color: green;
+border-radius: 0% 0% 200px 200px;
+}
+.red{
+	position: absolute;
+	width: 350px;
+	height: 155px;
+	left: 25px;
+	border-radius: 0% 0% 230px 230px;
+	background-color: red;
+}
+.sid1{
+	position: absolute;
+width: 10px;
+height: 17px;
+background-color: black;
+border-radius: 60% 60% 60% 60%;
+transform: rotate(30deg);
+left: 80px;
+top: 30px;
+}
+.sid2{
+	position: absolute;
+width: 10px;
+height: 17px;
+background-color: black;
+border-radius: 60% 60% 60% 60%;
+transform: rotate(30deg);
+left: 20px;
+top: 30px;
+}
+.sid3{
+	position: absolute;
+width: 10px;
+height: 17px;
+background-color: black;
+border-radius: 60% 60% 60% 60%;
+transform: rotate(30deg);
+left: 200px;
+top: 70px;
+}
+.sid4{
+	position: absolute;
+width: 10px;
+height: 17px;
+background-color: black;
+border-radius: 60% 60% 60% 60%;
+transform: rotate(30deg);
+left: 250px;
+top: 60px;
+}
+.sid5{
+	position: absolute;
+width: 10px;
+height: 17px;
+background-color: black;
+border-radius: 60% 60% 60% 60%;
+transform: rotate(30deg);
+left: 300px;
+top: 82px;
+}
+.sid6{
+	position: absolute;
+width: 10px;
+height: 17px;
+background-color: black;
+border-radius: 60% 60% 60% 60%;
+transform: rotate(30deg);
+left: 220px;
+top: 100px;
+}
+.makat{
+	width: 50px;
+	height:35px;
+	background-color:red;
+	left: 10;
+	top: 5;
+}
